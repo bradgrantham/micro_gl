@@ -1,0 +1,11 @@
+void init_state();
+bool get_rotate_object();
+void set_rotate_object(bool enabled);
+bool get_rotate_lights();
+void set_rotate_lights(bool enabled);
+bool get_draw_wireframe();
+void set_draw_wireframe(bool enabled);
+bool get_flat_shade();
+void set_flat_shade(bool enabled);
+void main_loop_body(float elapsed);
+void set_display_size(int width, int height);
